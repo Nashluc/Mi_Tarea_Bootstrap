@@ -1,0 +1,246 @@
+/* ========================================
+   ESTILOS GENERALES
+   ======================================== */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3eee8;
+    color: #4f463f;
+    line-height: 1.7;
+}
+
+
+/* ========================================
+   NAVBAR
+   ======================================== */
+
+.navbar {
+    background-color: #b8a18d !important;
+    padding: 18px 0;
+    border-bottom: none;
+}
+
+.navbar-brand {
+    font-family: Georgia, serif;
+    font-size: 1.5rem;
+    font-weight: normal !important;
+    color: #ffffff !important;
+    letter-spacing: 1px;
+    transition: 0.3s ease;
+}
+
+.navbar-brand:hover {
+    color: #5f5146 !important;
+    transform: translateY(-1px);
+}
+
+.nav-link {
+    color: #ffffff !important;
+    transition: 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #5f5146 !important;
+    transform: translateY(-2px);
+}
+
+
+/* ========================================
+   ENCABEZADO
+   ======================================== */
+
+header {
+    background-color: #eee5dc !important;
+    color: #5f5146 !important;
+    padding: 90px 20px !important;
+}
+
+header h1 {
+    font-family: Georgia, serif;
+    font-size: 42px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    color: #5f5146 !important;
+    margin-bottom: 20px;
+}
+
+header .intro-text {
+    max-width: 700px;
+    margin: 0 auto;
+    color: #6d6259 !important;
+    font-size: 1.05rem;
+}
+
+header .btn {
+    background-color: #8f7b69;
+    color: #ffffff;
+    border: none;
+    border-radius: 30px;
+    padding: 12px 28px;
+    transition: 0.3s ease;
+}
+
+header .btn:hover {
+    background-color: #756355;
+    color: #ffffff;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 18px rgba(80, 65, 50, 0.15);
+}
+
+
+/* ========================================
+   SECCIONES
+   ======================================== */
+
+section {
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
+}
+
+section h2 {
+    font-family: Georgia, serif;
+    color: #5f5146;
+    font-size: 2rem;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+}
+
+section h3 {
+    font-family: Georgia, serif;
+    color: #6d6259;
+    font-weight: normal;
+}
+
+
+/* ========================================
+   IMÁGENES
+   ======================================== */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+section img {
+    border-radius: 18px;
+    box-shadow: 0 12px 30px rgba(80, 65, 50, 0.12);
+}
+
+
+/* ========================================
+   SOBRE EL PROYECTO
+   ======================================== */
+
+#proyecto {
+    background-color: #fffdfb;
+    border: none;
+    padding: 35px;
+    margin-top: 0;
+    border-radius: 18px;
+    box-shadow: 0 10px 30px rgba(80, 65, 50, 0.08);
+    transition: 0.3s ease;
+}
+
+#proyecto h3 {
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+}
+
+#proyecto:hover {
+    box-shadow: 0 15px 35px rgba(80, 65, 50, 0.13);
+    transform: translateY(-3px);
+}
+
+
+/* ========================================
+   CARDS
+   ======================================== */
+
+.card {
+    background-color: #fffdfb;
+    border: none;
+    border-radius: 18px;
+    padding: 10px;
+    transition: 0.3s ease;
+    box-shadow: 0 8px 25px rgba(80, 65, 50, 0.07) !important;
+}
+
+.card-body {
+    padding: 30px 20px;
+}
+
+.card-title {
+    font-family: Georgia, serif;
+    color: #6d6259;
+    font-size: 1.4rem;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+.card-text {
+    color: #6d6259;
+    line-height: 1.7;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 18px 35px rgba(80, 65, 50, 0.16) !important;
+    border-color: #cbb8a5;
+}
+
+
+/* ========================================
+   FOOTER
+   ======================================== */
+
+footer {
+    background-color: #e4d8cc !important;
+    color: #5f5146 !important;
+    padding: 30px 0 !important;
+    border-top: 1px solid #d6c8ba;
+}
+
+footer p {
+    color: #5f5146 !important;
+    font-size: 0.9rem;
+    margin-bottom: 0;
+}
+
+
+/* ========================================
+   DISEÑO RESPONSIVO
+   ======================================== */
+
+@media (max-width: 768px) {
+
+    .navbar {
+        padding: 15px 0;
+    }
+
+    .nav-link {
+        margin-left: 0;
+        padding: 10px 0;
+    }
+
+    header {
+        padding: 70px 20px !important;
+    }
+
+    header h1 {
+        font-size: 34px;
+    }
+
+    section {
+        padding-top: 55px !important;
+        padding-bottom: 55px !important;
+    }
+
+    #proyecto {
+        margin-top: 25px;
+        padding: 25px;
+    }
+
+    .card-body {
+        padding: 25px 15px;
+    }
+}
