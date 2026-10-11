@@ -1,0 +1,41 @@
+PROYECTO: Página Web Responsiva con Bootstrap y CSS
+
+Descripción:
+Esta página web fue desarrollada como parte de una actividad académica para demostrar el uso de HTML5, CSS y el framework Bootstrap.
+
+Tecnologías utilizadas:
+- HTML5
+- CSS3
+- Bootstrap 5.3.3
+- Visual Studio
+- Navegador web
+
+Características del proyecto:
+- Diseño web responsivo.
+- Barra de navegación utilizando Bootstrap.
+- Uso de clases y componentes de Bootstrap.
+- Uso de selectores de elementos, clases e identificadores (ID) en CSS.
+- Aplicación del modelo de caja mediante margin, padding y border.
+- Uso de imágenes responsivas.
+- Tarjetas (cards) de Bootstrap.
+- Efectos visuales mediante CSS.
+- Media queries para adaptar el diseño a diferentes tamaños de pantalla.
+
+Estructura HTML:
+El documento utiliza una estructura HTML5 que incluye:
+- <!DOCTYPE html>
+- <html>
+- <head>
+- <body>
+- <header>
+- <section>
+- <footer>
+
+Objetivo:
+Crear una página web atractiva y funcional aplicando los conocimientos adquiridos sobre HTML, CSS, Bootstrap y diseño responsivo.
+
+Autor:
+Nashlee Luciano
+
+GitHub:
+https://github.com/Nashluc/Mi_Tarea_Bootstrap
